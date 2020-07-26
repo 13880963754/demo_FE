@@ -1,0 +1,317 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  font-size: 16px;
+}
+
+/* 背景图 */
+body {
+  width: 640px;
+  height: 960px;
+  background: url(./images/dose-juice-sTPy-oeA3h0-unsplash.jpg) no-repeat;
+}
+
+/* 时间、金钱模块公共样式 */
+.common1{
+  height: 70px;
+  box-sizing: border-box;
+  border-radius:34px;
+  border: 10px solid #8c6900;
+  background: linear-gradient(to bottom, #ffe699 0%,#ffe699 50%,#ffd24d 51%,#ffd24d 100%);
+}
+.common1 p {  
+  color: #8c6900;
+  font-size: 16px;
+  line-height: 50px;
+}
+
+/* 厨师、顾客版块公共样式 */
+.common2 {
+  width: 610px;
+  height: 370px;
+  float: left;
+  margin: 20px 0 0 17px;
+  box-sizing: border-box;
+  border: 10px solid #fff;
+  border-radius: 32px;
+}
+
+/* 厨师、顾客形象公共样式 */
+.common3 {
+  width: 126px;
+  height: 126px;
+  box-sizing: border-box;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  float: left;
+  margin-top: 23px;
+  text-align: center;
+  position: relative;
+}
+.common3 img {
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  top: -15px;
+  left: -10px;
+}
+.common3 .tag {
+  color: #fff;
+  width: 124px;
+  height: 37px;
+  position: absolute;
+  box-sizing: border-box;
+  border: 4px solid #fff;
+}
+.common3 p {
+  line-height: 30px;
+}
+
+/* 时间 */
+.time {
+  float: left;
+  width: 210px;
+  margin: 16px 0 0 30px;
+}
+.time p {
+  text-align: center;
+}
+
+/* 金钱 */
+.money {
+  float: right;
+  width: 310px;
+  margin: 16px 15px 0 0;
+}
+.money p {
+  text-align: right;
+  margin-right: 30px;
+}
+
+/* 厨师版块 */
+.cooks {
+  background-color: #ffd24d;
+}
+
+/* 顾客版块 */
+.customers {
+  background-color: #ffa64d;
+}
+
+/* 第一个厨师 */
+.cooks .cook1 {
+  background: linear-gradient(to right, #ff9122 0%,#ff9122 50%,#d96d00 51%,#d96d00 100%);
+  margin-left: 43px;
+  position: relative;
+} 
+.cooks .cook1 .tag {
+  background: linear-gradient(to right, #d96d00  0%,#d96d00  50%,#ff9122 51%,#ff9122 100%);
+  top: 100px;
+  left: -5px;
+}
+
+/* 第二个厨师 */
+.cooks .cook2 {
+  background: linear-gradient(to right, #ac91ff 0%,#ac91ff 50%,#7a4dff 51%,#7a4dff 100%);
+  margin-left: 70px;
+} 
+.cooks .cook2 .tag {
+  background-color: #ac91ff;
+  top: 100px;
+  left: -5px;
+}
+.cooks .cook2 .dish img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: -30px;
+  top: 23px;
+}
+
+/* 第三个厨师 */
+.cooks .cook3 {
+  background: linear-gradient(to right, #ff9122 0%,#ff9122 50%,#d96d00 51%,#d96d00 100%);
+  margin-left: 70px;
+}
+.cooks .cook3 .tag {
+  background: linear-gradient(to right, #d96d00 0%,#d96d00 80%,#ff9122 81%,#ff9122 100%);
+  top: 100px;
+  left: -5px;
+} 
+
+/* 第四个厨师 */
+.cooks .cook4 {
+  background: linear-gradient(to right, #dddddd 0%,#dddddd 50%,#aaaaaa 51%,#aaaaaa 100%);
+  margin-left: 43px;
+  margin-top: 46px;
+  position: relative;
+} 
+.cooks .cook4 .delete1 {
+  width: 8px;
+  height: 40px;
+  background-color: #cc9979;
+  transform: rotate(135deg);
+  position: absolute;
+  top: -10px;
+  left: 110px;
+}
+.cooks .cook4 .delete2 {
+  width: 8px;
+  height: 40px;
+  background-color: #cc9979;
+  transform: rotate(45deg);
+  position: absolute;
+  top: -10px;
+  left: 110px;
+}
+
+/* 第五个厨师 */
+.cooks .cook5 {
+  background-color: #dddddd;
+  margin-left: 70px;
+  margin-top: 46px;
+  position: relative;
+}
+.cooks .cook5 .add1 {
+  width: 8px;
+  height: 40px;
+  background-color: #cc9979;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 26px;
+  left: 50px;
+} 
+.cooks .cook5 .add2 {
+  width: 8px;
+  height: 40px;
+  background-color: #cc9979;
+  position: absolute;
+  top: 26px;
+  left: 50px;
+}
+.customers {
+  position: relative;
+}
+
+/* 第一个顾客 */
+.customers .customer1 {
+  margin-left: 43px;
+  background: linear-gradient(to right, #661a00 0%,#661a00 50%,#401000 51%,#401000 100%);
+}
+.customers .customer1 .food1 {
+  top: -5px;
+  left: 90px;
+  background-color: #535362;
+}
+.customers .customer1 .food2 {
+  top: 35px;
+  left: 90px;
+  background-color: #535362;
+}
+.customers .customer1 .love img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 45px;
+  left: -45px;
+}
+
+/* 第二个顾客 */
+.customers .customer2 {
+  margin-left: 150px;
+  background: linear-gradient(to right, #80ff00 0%,#80ff00 50%,#00b200 51%,#00b200 100%);
+}
+.customers .customer2 .food1 {
+  top: -5px;
+  left: 90px;
+  background-color: #00b200;
+}
+.customers .customer2 .food2 {
+  top: 35px;
+  left: 90px;
+  background-color: #00b200;
+}
+.customers .customer2 .food3 {
+  top: 75px;
+  left: 90px;
+  background-color: #00b200;
+}
+.customers .customer2 .coin img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 45px;
+  left: -45px;
+}
+
+/* 第三个顾客 */
+.customers .customer3 {
+  margin-left: 43px;
+  background: linear-gradient(to right, #ff9122 0%,#ff9122 50%,#d96d00 51%,#d96d00 100%);
+}
+.customers .customer3 .food1 {
+  top: -5px;
+  left: 90px;
+  background: linear-gradient(to right,#d96d00 0%,#d96d00 40%,#ff9122 41%,#ff9122 100% );
+}
+
+/* 第四个顾客 */
+.customers .customer4 {
+  margin-left: 150px;
+  background: linear-gradient(to right, #80ff00 0%,#80ff00 50%,#00b200 51%,#00b200 100%);
+}
+.customers .customer4 .food1 {
+  top: -5px;
+  left: 90px;
+  background-color: #00b200;
+}
+.customers .customer4 .food2 {
+  top: 35px;
+  left: 90px;
+  background-color: #00b200;
+}
+.customers .customer4 .food3 {
+  top: 75px;
+  left: 90px;
+  background-color: #00b200;
+}
+.customers .customer4 .coin img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 45px;
+  left: -45px;
+}
+
+/* 第一个等待顾客 */
+.customers .customer5 {
+  position: absolute;
+  top: 285px;
+  left: 375px;
+  background: linear-gradient(to right, #2693ff 0%,#2693ff 50%,#006dd9 51%,#006dd9 100%);
+  z-index: 999;
+}
+.customers .customer5 .wait {
+  position: absolute;
+  top: 88px;
+  left: -10px;
+  background: linear-gradient(to right, #006dd9 0%,#006dd9 45%,#2693ff 46%,#2693ff 100%);
+}
+
+/* 第二个等待顾客 */
+.customers .customer6 {
+  position: absolute;
+  top: 285px;
+  left: 465px;
+  background: linear-gradient(to right, #2693ff 0%,#2693ff 50%,#006dd9 51%,#006dd9 100%);
+}
+.customers .customer6 .wait {
+  position: absolute;
+  top: 88px;
+  left: -5px;
+  background-color: #2693ff;
+}
+
+
