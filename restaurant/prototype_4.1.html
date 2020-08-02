@@ -6,122 +6,114 @@
   <title>Document</title>
   <link rel="stylesheet" href="./prototype_4.1.css">
 </head>
-<body class="clearfix">
+<body>
   <!-- 时间版块 -->
-  <div class="time common1">
-    <p>W12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D5</p>
+  <div class="time time-border">
+    W12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D5
   </div>
   <!-- 金钱版块 -->
-  <div class="money common1">
-    <p>1,948,343</p>
+  <div class="money money-border">
+    1,948,343&nbsp;&nbsp;
   </div>
   <!-- 厨师版块 -->
-  <div class="cooks common2">
+  <div id="cooks-container" class="cooks-container_border">
     <!-- 第一个厨师 -->
-    <div class="cook1 common3">
+    <div id="cooks-container-item_1" class="figure">
       <img src="./images/iconfinder_Chef-2_379358.png" alt="">
-      <div class="tag">
-        <p>UL吨LI</p>
+      <div class="cooking-rate-border">
+        UL吨LI
       </div>
     </div>
     <!-- 第二个厨师 -->
-    <div class="cook2 common3">
+    <div id="cooks-container-item_2" class="figure">
       <img src="./images/iconfinder_Chef-2_379358.png" alt="">
-      <div class="tag">
-        <p>鲜榨flex</p>
+      <div class="cooking-rate-border">
+        鲜榨flex
       </div>
       <div class="dish">
         <img src="./images/iconfinder_Food-Dome_379366.png" alt="">
       </div>
     </div>
     <!-- 第三个厨师 -->
-    <div class="cook3 common3">
+    <div id="cooks-container-item_3" class="figure">
       <img src="./images/iconfinder_Chef-2_379358.png" alt="">
-      <div class="tag">
-        <p>红烧HEAD</p>
+      <div class="cooking-rate-border">
+        红烧HEAD
       </div>
     </div>
     <!-- 第四个厨师 -->
-    <div class="cook4 common3">
+    <div id="cooks-container-item_4" class="figure">
       <img src="./images/iconfinder_Chef-2_379358.png" alt="">
-        <!-- 删除 -->
-        <div class="delete1"></div>
-        <div class="delete2"></div>
+        <!-- 删除按钮 --> 
+        <span class="delete">X</span>
     </div>
     <!-- 第五个厨师 -->
-    <div class="cook5 common3">
+    <div id="cooks-container-item_5" class="figure">
       <img src="./images/iconfinder_Chef-2_379358.png" alt="">
-      <!-- 添加 -->
-      <div class="add1"></div>
-      <div class="add2"></div>
+      <!-- 添加按钮 -->
+      <span class="add">+</span>
     </div>
   </div>
   <!-- 顾客 -->
-  <div class="customers common2">
+  <div id="customers-container" class="customers-container_border">
     <!-- 第一个顾客 -->
-    <div class="customer1 common3">
+    <div id="customers-container-item_1" class="figure">
       <img src="./images/379446-512.png" alt="">
-      <div class="food1 tag">
-        <p><del>UL炖LI</del></p>
+      <div class="food-received-one waiting-food-rate-border">
+        <del>UL炖LI</del>
       </div>
-      <div class="food2 tag">
-        <p><del>鲜榨flex</del></p>
+      <div class="food-received-two waiting-food-rate-border">
+        <del>鲜榨flex</del>
       </div>
-      <div class="love">
-        <img src="./images//iconfinder_Instagram_UI-07_2315589.png" alt="">
-      </div>
+      <img class="anger" src="./images/iconfinder_Instagram_UI-07_2315589.png" alt="">
     </div>
     <!-- 第二个顾客 -->
-    <div class="customer2 common3">
+    <div  id="customers-container-item_2" class="figure">
       <img src="./images/379448-512.png" alt="">
-      <div class="food1 tag">
-        <p>UL炖LI</p>
+      <div class="food-waiting-one waiting-food-rate-border">
+        UL炖LI
       </div>
-      <div class="food2 tag">
-        <p>UL炖LI</p>
+      <div class="food-waiting-two waiting-food-rate-border">
+        UL炖LI
       </div>
-      <div class="food3 tag">
-        <p>UL炖LI</p>
+      <div class="food-waiting-three waiting-food-rate-border">
+        UL炖LI
       </div>
-      <div class="coin">
-        <img src="./images/iconfinder_Euro-Coin_379523.png" alt="">
-      </div>
+        <img class="coin" src="./images/iconfinder_Euro-Coin_379523.png" alt="">
     </div>
     <!-- 第三个顾客 -->
-    <div class="customer3 common3">
+    <div  id="customers-container-item_3" class="figure">
       <img src="./images//iconfinder_Boss-3_379348.png" alt="">
-      <div class="food1 tag">
-        <p>UL炖LI</p>
+      <div class="food-waiting waiting-food-rate-border">
+        UL炖LI
       </div>
     </div>
     <!-- 第四个顾客 -->
-    <div class="customer4 common3">
+    <div  id="customers-container-item_4" class="figure">
       <img src="./images//iconfinder_Rasta_379441.png" alt="">
-      <div class="food1 tag">
-        <p>UL炖LI</p>
+      <div class="food-waiting-one waiting-food-rate-border">
+        UL炖LI
       </div>
-      <div class="food2 tag">
-        <p>UL炖LI</p>
+      <div class="food-waiting-two waiting-food-rate-border">
+        UL炖LI
       </div>
-      <div class="food3 tag">
-        <p><del>红烧HEAD</del></p>
+      <div class="food-waiting-three waiting-food-rate-border">
+        <del>红烧HEAD</del>
       </div>
-      <div class="coin">
-        <img src="./images/iconfinder_Euro-Coin_379523.png" alt="">
-      </div>
+        <img class="coin" src="./images/iconfinder_Euro-Coin_379523.png" alt="">
     </div>
     <!-- 第一个等待顾客 -->
-    <div class="customer5 common3">
+    <div class="waiting-order-one figure">
       <img src="./images//iconfinder_Man-16_379485.png" alt="">
-      <div class="wait tag">
-        <p>等位中</p>
+      <div class="wait waiting-order-rate-border">
+        等位中
       </div>
     </div>
     <!-- 第二个等待顾客 -->
-    <div class="customer6 common3">
+    <div class="waiting-order-two figure">
       <img src="./images//379339-512.png" alt="">
-      <div class="wait tag">
-        <p>等位中</p>
+      <div class="wait waiting-order-rate-border">
+        等位中
       </div>
     </div>
   </div>
